@@ -3327,6 +3327,10 @@ input, select, textarea {
   width: 100%;
 }
 
+.mw-100 {
+	max-width: 100%;
+}
+
 .mb-0 {
 	margin-bottom: 0;
 }
