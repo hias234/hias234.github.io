@@ -3393,3 +3393,29 @@ input, select, textarea {
 		order: 1;
 	}
 }
+
+.right-scrollbar::-webkit-scrollbar {
+	width: 11px;
+}
+.right-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: transparent transparent;
+}
+.right-scrollbar:hover {
+	scrollbar-width: thin;
+	scrollbar-color: grey lightgrey;
+}
+
+.right-scrollbar::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.right-scrollbar::-webkit-scrollbar-thumb {
+	background-color: transparent;
+	border: 0;
+}
+.right-scrollbar:hover::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 6px;
+	border: 3px solid #265BA6;
+}
