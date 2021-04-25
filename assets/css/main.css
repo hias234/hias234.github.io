@@ -3423,3 +3423,16 @@ input, select, textarea {
 	border-radius: 6px;
 	border: 3px solid #265BA6;
 }
+
+.d-none {
+	display: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+	.d-lg-none {
+		display: none !important;
+	}
+	.d-lg-inline {
+		display: inline !important;
+	}
+}
